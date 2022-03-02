@@ -1,4 +1,4 @@
-
+/* Responsive image styling */
 
 img {
     max-width: 100%;
@@ -7,12 +7,75 @@ img {
     margin: 0 auto;
 }
 
+/* Settings for page fonts and background color */
+
 body {
     font-family: BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
     font-size: 1.6rem;
     line-height: 1.5;
     text-align: center;
     color: aliceblue;
-    background-color: #202020;
+    background-color: #2e2d2d;
+}
+
+main {
+    margin-bottom: 200px;
+}
+
+#footer {
+    margin-bottom: 0px;
+    font-size: smaller;
+}
+
+/* Rounded Social media icons */
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Social media icons hover effect*/
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Specific color for each brand */
+
+/* Github */
+.fa-github {
+    color: #171515;
+  }
+
+/*Linkedin*/
+.fa-linkedin {
+    color: #0e76a8;
+  }
+
+/* Twitter */
+.fa-twitter {
+  color: #55ACEE;
+}
+
+/* Hyperlink behaviour */
+.history, .linktree {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.history:active, .linktree:active {
+  color: darkblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.history:hover, .linktree:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
