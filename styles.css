@@ -11,11 +11,14 @@ img {
 
 body {
     font-family: BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    color: aliceblue;
+    background-color: #2e2d2d;
+}
+
+.head-div {
     font-size: 1.6rem;
     line-height: 1.5;
     text-align: center;
-    color: aliceblue;
-    background-color: #2e2d2d;
 }
 
 main {
